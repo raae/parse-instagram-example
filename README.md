@@ -17,7 +17,7 @@ The login code is based on Parse.com's [Adding Third-Party Authentication to you
   ```
     git clone git@github.com:raae/parse-instagram-example.git
   ```
-* Move into repository and create .parse.local and cloud/instagramClienInfo.js
+* Move into repository and create .parse.local and cloud/instagramClientInfo.js
 
   ```
     cd parse-instagram-example
