@@ -26,6 +26,11 @@ The login code is based on Parse.com's [Adding Third-Party Authentication to you
   ```
 * Add content to .parse.local and cloud/instagramClienInfo.js
   * See below for example content.
+* Deploy to Parse
+
+  ```
+    parse deploy
+  ```
 
 ## Example .parse.local file
 ```
