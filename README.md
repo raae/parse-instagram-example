@@ -13,7 +13,7 @@ More functionality showing Instagram+Parse.com to come.
   * Navigate to settings and then hosting under the app on parse.com.
   * Turn on hosting and add a parseApp Name.
 * Create a client with Instagram
-  * Go to https://instagram.com/developer/clients/manage/
+  * Go to https://instagram.com/developer/clients/register/
   * Redirect uri should be `http://<your-parseAapp-name>.parseapp.com/instaOAuthCallback`
 * Clone this repository
   
