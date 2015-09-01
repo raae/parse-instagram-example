@@ -13,15 +13,15 @@ The login code is based on Parse.com's [Adding Third-Party Authentication to you
   * Go to https://instagram.com/developer/clients/manage/
   * Redirect uri should be `http://<your-parseAapp-name>.parseapp.com/instaOAuthCallback`
 * Clone this repository
-  * ```
-      git clone git@github.com:raae/parse-instagram-example.git
-    ```
+  ```
+    git clone git@github.com:raae/parse-instagram-example.git
+  ```
 * Move into repository and create .parse.local and cloud/instagramClienInfo.js
-  * ```
-      cd parse-instagram-example
-      touch .parse.local
-      touch cloud/instagramClienInfo.js
-    ```
+  ```
+    cd parse-instagram-example
+    touch .parse.local
+    touch cloud/instagramClienInfo.js
+  ```
 * Add content to .parse.local and cloud/instagramClienInfo.js
   * See below for example content.
 
