@@ -10,7 +10,7 @@ The login code is based on Parse.com's [Adding Third-Party Authentication to you
   * Navigate to settings and then hosting under the app on parse.com.
   * Turn on hosting and add a parseApp Name.
 * Create a client with Instagram
-  * Go to https://instagram.com/developer/clients/manage/
+  * Go to https://instagram.com/developer/clients/register/
   * Redirect uri should be `http://<your-parseAapp-name>.parseapp.com/instaOAuthCallback`
 * Clone this repository
   
