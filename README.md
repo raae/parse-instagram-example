@@ -1,7 +1,10 @@
 # Parse Instagram Example
-So far this example shows how to use Instagram for login with a parse app.
+Parse.com app example with Instagram login.  
+Running example: http://instagram-example.parseapp.com/
 
 The login code is based on Parse.com's [Adding Third-Party Authentication to your Web App](https://github.com/ParsePlatform/CloudCodeOAuthGitHubTutorial)-tutorial.
+
+More functionality showing Instagram+Parse.com to come.
 
 # Getting started
 * Create a new parse app
