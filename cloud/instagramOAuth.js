@@ -115,8 +115,9 @@ module.exports = {
         return Parse.Promise.error("Invalid access request.");
       }
     }).done(function(user) {
-      // Load Parse.User with instagram user data
-      user.instagramUser = instagramData.user;
+      // Load Parse.User with Instagram user data and Instagram access token.
+      user.instagramUserData = instagramData.user;
+      user.instagramUserData.access_token = instagramData.access_token;
       return Parse.Promise.as(user);
     });
   }

@@ -1,6 +1,13 @@
 extend layout
 block content
-  h2 Account
-  p=sessionToken
-  p=instagramUser.username
-  p=instagramUser.full_name
+  h2 Instagram Account for #{instagramUserData.username}
+  dl
+    dt Instagram Full Name
+    dd=instagramUserData.full_name
+    dt Instagram Access Token
+    dd=instagramUserData.access_token
+    dt Instagram Profile Picture
+    dd
+      img(src=instagramUserData.profile_picture)
+    dt Parse Session Token
+    dd=sessionToken

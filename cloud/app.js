@@ -60,7 +60,7 @@ app.get('/instaOAuthCallback', function(req, res) {
 
   instagramOAuth.exchangeCodeAndStateForUser(data.code, data.state).done(function(user) {
 
-    res.render('account', { sessionToken: user.getSessionToken(), instagramUser: user.instagramUser });
+    res.render('account', { sessionToken: user.getSessionToken(), instagramUserData: user.instagramUserData });
   }).fail(function(error) {
     /**
      * If the error is an object error (e.g. from a Parse function) convert it
